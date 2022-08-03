@@ -1,6 +1,16 @@
 package files;
 
 public class payload {
+	
+	public static String addBook() {
+		return "{\r\n"
+				+ "\r\n"
+				+ "\"name\":\"Lear11111n Appium Automation with Java\",\r\n"
+				+ "\"isbn\":\"b11111cd\",\r\n"
+				+ "\"aisle\":\"2271111\",\r\n"
+				+ "\"author\":\"John fo1111e\"\r\n"
+				+ "}";
+	}
 
 	public static String AddPlace() {
 		return "{\r\n"
