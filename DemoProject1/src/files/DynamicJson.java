@@ -19,7 +19,7 @@ public class DynamicJson {
 				extract().asString();
 			JsonPath js =	ReusableMethods.rawToJson(response);
 			String id = js.get("ID");
-			System.out.println(iitd);
+			System.out.println(id);
 				
 	}
 
